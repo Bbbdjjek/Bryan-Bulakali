@@ -31,7 +31,7 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("🇲🇦𝙎𝙃𝙄𝙉𝙈𝙊𝙉 𝘼𝙉𝘿 𝙂𝙀𝘼𝙍 🇨🇮 \n✿✿✿✿✿✿✿✿✿✿✿✿✿\n 𝘾𝘼𝙉 𝙔𝙊𝙐 𝘼𝙎𝙆 𝙔𝙊𝙐𝙍 𝙌𝙐𝙀𝙎𝙏𝙄𝙊𝙉............?  ");
+        await message.reply("Salut je suis sasha💜 en quoi puis-je t'aider  ");
         return;
       }
 
@@ -40,7 +40,7 @@ module.exports = {
       const answer = response.data.answer;
 
  
-    await message.reply({ body: `🧛𝘿𝙍𝘼𝘾𝙐𝙇𝘼🧛
+    await message.reply({ body: `Sasha
 ☘☘☘☘☘☘☘☘☘☘☘☘☘
 ${answer}
 𝘿𝙍𝘼𝘾𝙐𝙇𝘼 💢`,
